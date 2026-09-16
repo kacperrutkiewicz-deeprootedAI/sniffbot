@@ -4,12 +4,14 @@ SniffBot sniffs out a Grok Bot template before you install it, the way you smell
 
 Install SniffBot first. Then paste any x.ai/bot link into it before you add that bot to your account.
 
-**Status:** v1 in build. Share link coming with the launch video.
+One rule: never press the final Add Bot button until SniffBot has given you a final answer. The first click only opens the details screen. The second click is the real install. SniffBot sits between those two clicks.
+
+**Status:** v1.0, live. Share link is in the launch video and pinned here once posted.
 
 ## What it does
 
 1. Opens the link you give it and reads the outside of the box (name, author, description).
-2. Walks you through the inside of the box (the details screen in the app: skills, routines, plugins, memories) using screenshots.
+2. Walks you through the inside of the box (the details screen in the app: skills, routines, plugins, memories). You record your screen while you scroll, SniffBot reads the video. Screenshots work too.
 3. Asks where you found the link and checks the author.
 4. Asks three quick questions so the answer fits your setup, including whether a bot you already own could do this job instead.
 5. Gives you one of four answers.
@@ -17,7 +19,7 @@ Install SniffBot first. Then paste any x.ai/bot link into it before you add that
 ## The four answers
 
 - Do not install this.
-- Install it, but change these things first.
+- Install it, but first: (a change to make, or a thing to know).
 - Install it. I found nothing, which is not the same as safe.
 - Do not install this. Build it instead. Here is the text.
 
@@ -40,7 +42,7 @@ What it remembers: the name of each template you checked, the date, the verdict,
 
 ## What it can and cannot see
 
-A public x.ai/bot page shows only the bot name, the author's first name, and the description. Skills, routines, plugins, and memories only show inside the app after you click Add and before you confirm. That is why SniffBot asks for screenshots of that screen and will not give a final answer without them.
+A public x.ai/bot page shows only the bot name, the author's first name, and the description. Skills, routines, plugins, and memories only show inside the app after you click Add and before you confirm. That is why SniffBot gives you an outside verdict first, then strongly recommends a screen recording of that screen before you press the second button. You would not hire a person off a one-line bio. You would interview them. The recording is the interview. If you skip it, the verdict says "outside only" and lists what it could not see.
 
 ## The full text
 
@@ -53,7 +55,7 @@ This is a community project. If a template fooled SniffBot, or a rule is missing
 ## Roadmap
 
 - v1: x.ai/bot share links.
-- v2: tighten v1 from real reports, then GitHub repo links.
+- v2: tighten v1 from real reports (quote block for long pages, a three-choice prompt after the outside verdict, an optional add-then-read path only if imported routines are proven to arrive off), then GitHub repo links.
 - v3: MCP server links.
 
 ## Where the rules come from
