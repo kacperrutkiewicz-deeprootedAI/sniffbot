@@ -6,7 +6,9 @@ Install SniffBot first. Then paste any x.ai/bot link into it before you add that
 
 One rule: never press the final Add Bot button until SniffBot has given you a final answer. The first click only opens the details screen. The second click is the real install. SniffBot sits between those two clicks.
 
-**Status:** v1.0, live. Share link is in the launch video and pinned here once posted.
+**Status:** v1.0, live.
+
+**Install SniffBot:** https://x.ai/bot/r3zhR2taB4UL6qkApsgau
 
 ## What it does
 
@@ -47,6 +49,10 @@ A public x.ai/bot page shows only the bot name, the author's first name, and the
 ## The full text
 
 [SNIFFBOT.md](SNIFFBOT.md) is the exact description SniffBot runs on. Read it. Vet the vetter.
+
+## Install
+
+Open https://x.ai/bot/r3zhR2taB4UL6qkApsgau and click Add to Grok Bot. SniffBot ships with no plugins and no routines. On first run it introduces itself, states its rules, and asks whether you already have bots so it can learn your team.
 
 ## Contribute
 
